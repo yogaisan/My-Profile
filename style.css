@@ -145,6 +145,7 @@ hr {
 .hobbies {
   width: 70%;
   margin: 50px auto;
+  margin-bottom: 7rem;
 }
 
 .hobbies h4 {
@@ -157,14 +158,13 @@ hr {
 
 .footer {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  height: 125px;
+  /* height: 125px; */
   padding: 0px 50px;
   color: rgba(189, 201, 201, 0.4);
-  background: rgb(63, 94, 251);
-  background: radial-gradient(circle, rgba(63, 94, 251, 0.2) 0%, rgba(252, 70, 107, 0.2) 100%);
+  /* background: radial-gradient(circle, rgba(63, 94, 251, 0.2) 0%, rgba(252, 70, 107, 0.2) 100%); */
 }
 .footer .fa-heart {
   color: #ff0000;
